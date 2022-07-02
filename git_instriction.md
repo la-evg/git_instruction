@@ -99,9 +99,12 @@ git config --global user.email "mail@mail.com"
 ### Слияние веток
 - Когда работа в ветке закончена её можно влить в ветку master. Для этого нужно:
     1. Закоммитить изменения в ветке коммандой `git commit -am <Описание изменения>`
+    ![commit](img/gitcommit_merge.png "commit")
     2. Переключиться на основную ветку коммандой `git checkout master`
+    ![switch](img/git_switch.png "switch")
     3. Добавить изменения из второстепенной ветки в основную коммандой `git merge <branch>`.
     Где `<branch>` - название ветки.
+    ![merge](img/git_switch.png "merge")
 
 ### Разрешение конфликтов
 
